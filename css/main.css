@@ -476,6 +476,39 @@ footer .copyright {
      @media only screen and (min-width: 768px) {
         /*Tablet styles here*/
 
+         /*Tablet styles here*/
+
+  /* General styles */
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+ nav {
+  width: 20%;
+}
+
+nav ul{
+  justify-content: space-between;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding-left: 30px;
+}
+     }
+
 
     @media only screen and (min-width: 1200px) {
             /*Desktop styles here */ 
@@ -506,7 +539,29 @@ footer .copyright {
 
     header h2 {
       text-align: center;
-    }
+    } 
+
+  header {
+    padding: 15px 0;
+  }
+
+  .content-wrapper {
+    max-width: 960px;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3,
+h4 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.125em;
+    line-height: 1.333;
+}
 
     /***** WORK *****/
 
@@ -572,10 +627,33 @@ footer .copyright {
       margin-left: 50px;
     }
     
+
+  /***** CONTACT *****/
+
+    #contact ul {
+      list-style: none;
+      padding-right: 15px;
+      margin-right: 0px;
+      text-align: center;
+      justify-content: space-between;
+      width: 80%;
+      }
+      
+      #contact ul li {
+     
+      text-align: center;
+      justify-content: space-between;
+      padding-left: 20px;
+
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+      }
+      
+
     }
-
-
-
 
 
   
